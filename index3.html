@@ -3,42 +3,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Centered Logo</title>
+  <title>Frozen Lodge</title>
   <style>
     html, body {
       margin: 0;
       padding: 0;
       height: 100%;
       width: 100%;
+    }
+
+    body {
+      background: url('https://georges.app/FrozenLodge.jpeg') no-repeat center center fixed;
+      background-size: cover;
       display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: #000;
+      justify-content: flex-start;
+      align-items: flex-start;
     }
 
     .logo {
-      max-width: 90vw;
-      max-height: 90vh;
-      width: auto;
+      margin: 2vw;
+      width: 15vw;
       height: auto;
+      max-width: 120px;
+    }
+
+    @media (max-width: 768px) {
+      .logo {
+        width: 25vw;
+        max-width: 100px;
+      }
     }
 
     @media (orientation: portrait) {
       .logo {
-        max-width: 80vw;
-        max-height: 60vh;
+        width: 30vw;
       }
     }
 
     @media (orientation: landscape) {
       .logo {
-        max-width: 60vw;
-        max-height: 80vh;
+        width: 20vw;
       }
     }
   </style>
 </head>
+
 <body>
-  <img src="ArrowHead2.png" alt="Arrow Head Logo" class="logo" />
+  <img src="https://georges.app/ArrowHead2.png" alt="Lodge Logo" class="logo" />
 </body>
 </html>
