@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shikellamy Images</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 2vw;
+      padding: 2vw;
+    }
+
+    .container img {
+      max-width: 40vw;
+      height: auto;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .container img {
+        max-width: 70vw;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://georges.app/Shikellamy1.png" alt="Shikellamy Logo 1" />
+    <img src="https://georges.app/Shikellamy1.png" alt="Shikellamy Logo 2" />
+  </div>
+</body>
+</html>
