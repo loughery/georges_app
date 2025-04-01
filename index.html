@@ -17,6 +17,65 @@
       background: url('https://georges.app/FrozenLodge.jpeg') no-repeat center center fixed;
       background-size: cover;
       display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .wrapper {
+      position: relative;
+      width: 30vw;
+      max-width: 200px;
+      aspect-ratio: 1 / 1;
+    }
+
+    .arrow {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .shikellamy {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 60%;
+      height: auto;
+      transform: translate(-50%, -50%);
+    }
+
+    @media (max-width: 768px) {
+      .wrapper {
+        width: 50vw;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <img src="ArrowHead2.png" alt="Arrow Head" class="arrow" />
+    <img src="Shikellamy4.png" alt="Shikellamy Logo" class="shikellamy" />
+  </div>
+</body>
+</html><!--<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shikellamy</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      background-color: transparent;
+    }
+
+    body {
+      background: url('https://georges.app/FrozenLodge.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
       justify-content: flex-start;
       align-items: flex-start;
     }
