@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Willmar International</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
@@ -29,13 +30,13 @@
       align-items: center;
       height: 100%;
       text-align: center;
-      padding-left: 30%; /* Reserve space so text doesn't overlap image */
+      padding-left: 30%;
       box-sizing: border-box;
       z-index: 0;
     }
 
     .main-title {
-      font-size: 6vw;
+      font-size: 5vw;
       font-weight: bold;
       margin: 0;
     }
@@ -45,12 +46,34 @@
       font-weight: normal;
       margin-top: 0.5em;
     }
+
+    @media (max-width: 600px) {
+      .logo {
+        position: static;
+        width: 40%;
+        margin-top: 20px;
+      }
+
+      .content {
+        padding-left: 0;
+        padding-top: 20px;
+        align-items: center;
+      }
+
+      .main-title {
+        font-size: 6vw;
+      }
+
+      .subtitle {
+        font-size: 5vw;
+      }
+    }
   </style>
 </head>
 <body>
-  <img src="https://georges.app/WillmarLogo1.png" alt="Wilmar Logo" class="logo">
+  <img src="https://georges.app/WillarLogo1.png" alt="Wilmar Logo" class="logo">
   <div class="content">
-    <h2 class="main-title">WILLMAR INTERNATIONAL</h2>
+    <h1 class="main-title">WILLMAR INTERNATIONAL</h1>
     <p class="subtitle">Lube Technology</p>
   </div>
 </body>
