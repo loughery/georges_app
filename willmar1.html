@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Wilmar Logo Page</title>
+  <title>Wilmar Logo Responsive</title>
   <style>
     body {
       margin: 0;
@@ -10,14 +10,15 @@
     }
     .logo {
       position: absolute;
-      top: 0;
-      left: 0;
-      width: 100px;
-      height: 100px;
+      top: 50px;
+      left: 50px;
+      width: 25%;
+      height: auto;
+      max-width: calc(100% - 100px); /* prevent overflow on small screens */
     }
   </style>
 </head>
 <body>
-  <img src="http://www.georges.app/WillmarLogo1.png" alt="Wilmar Logo" class="logo">
+  <img src="WilmarLogo1.png" alt="Wilmar Logo" class="logo">
 </body>
 </html>
