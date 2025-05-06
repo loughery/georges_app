@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Willmar International LLC</title>
+  <title>Willmar International</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     html, body {
@@ -39,18 +39,18 @@
     }
 
     .main-title {
-      font-size: 4vw;
+      font-size: clamp(24px, 4vw, 48px);
       font-weight: bold;
       margin: 1rem 0 0.5rem 0;
     }
 
     .subtitle {
-      font-size: 5vw;
+      font-size: clamp(28px, 5vw, 64px);
       margin: 0 0 1rem 0;
     }
 
     .enter-text {
-      font-size: 1.2vw;
+      font-size: clamp(12px, 1.2vw, 20px);
       color: #888;
       font-style: italic;
       margin: 0.5rem 0 1rem 0;
@@ -62,7 +62,7 @@
       text-align: left;
       max-width: 80%;
       margin: 0 auto;
-      font-size: 2.5vw; /* restored to original size */
+      font-size: clamp(16px, 2.5vw, 28px);
     }
 
     ul.bullet-list li {
@@ -74,20 +74,7 @@
         max-width: 70vw;
       }
 
-      .main-title {
-        font-size: 6vw;
-      }
-
-      .subtitle {
-        font-size: 8vw;
-      }
-
-      .enter-text {
-        font-size: 3vw;
-      }
-
       ul.bullet-list {
-        font-size: 4vw; /* restored original mobile size */
         padding-left: 1.2em;
       }
     }
@@ -96,14 +83,14 @@
 <body>
   <a href="https://www.lubeandjack.com/" class="full-link">
     <img src="https://georges.app/WillmarLogo1.png" alt="Wilmar Logo" class="logo">
-    <h1 class="main-title">WILLMAR INTERNATIONAL LLC</h1>
+    <h1 class="main-title">WILLMAR INTERNATIONAL</h1>
     <p class="subtitle">Lube Technology</p>
     <ul class="bullet-list">
       <li>Distributor of Lincoln Lubrication Equipment</li>
       <li>Lincoln Power Lubers and Parts</li>
       <li>Private Brand Lube Technology Lubrication Equipment</li>
     </ul>
-    <p class="enter-text">click to enter</p>
+      <p class="enter-text">click to enter</p>
   </a>
 </body>
 </html>
